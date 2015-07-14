@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class MoveCube : MonoBehaviour {
-	public Vector3 speed;
+	public float speed;
 	void Update() {
 		Vector3 pos = transform.position;
-		pos += speed * Time.deltaTime;
+		pos.x = pos.x + speed * Time.deltaTime;
 		transform.position = pos;
 	}
 }
