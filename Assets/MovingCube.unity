@@ -184,6 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b1433eef9327c24cb04bcbac8ea130e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  script: {fileID: 1254349552}
   isTrue: 1
   intNum: 1
   floatNum: 2
@@ -218,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a99e389de403473f8df83c833a5ed5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: .25, z: -1}
+  speed: 0
 --- !u!23 &1254349553
 MeshRenderer:
   m_ObjectHideFlags: 0

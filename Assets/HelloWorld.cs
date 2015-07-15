@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class HelloWorld : MonoBehaviour {
+    public MoveCube script;
 	public bool isTrue = true;
 	public int intNum = 1;
 	public float floatNum = 2f;
